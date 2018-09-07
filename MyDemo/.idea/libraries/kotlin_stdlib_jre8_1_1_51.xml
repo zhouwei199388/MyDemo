@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="kotlin-stdlib-jre8-1.1.51">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/4.4/embedded-kotlin-repo-1.1.51-1/repo/org/jetbrains/kotlin/kotlin-stdlib-jre8/1.1.51/kotlin-stdlib-jre8-1.1.51.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

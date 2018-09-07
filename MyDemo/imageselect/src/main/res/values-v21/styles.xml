@@ -1,0 +1,27 @@
+<resources>
+
+    <style name="AlbumTheme" parent="Base.AlbumTheme" >
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+
+        <item name="android:windowBackground">@color/transparent</item>
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Activity</item>
+    </style>
+
+    <style name="mypopwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popshow_anim</item>
+         指定显示的动画xml
+
+        <item name="android:windowExitAnimation">@anim/pophidden_anim</item>
+         指定消失的动画xml
+    </style>
+    <!--<style name="AppTheme.OverlapSystemBar" parent="Base.AlbumTheme">-->
+    <!--<item name="android:windowDrawsSystemBarBackgrounds">false</item>-->
+    <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+    <!--<item name="android:windowTranslucentStatus">true</item>-->
+    <!--<item name="android:fitsSystemWindows">true</item>-->
+    <!--</style>-->
+</resources>

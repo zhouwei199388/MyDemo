@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#f2f2f2"
+    >
+
+    <include layout="@layout/layout_appbar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_image_grid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <include layout="@layout/layout_no_image"/>
+
+    <View
+        android:id="@+id/view_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divider"/>
+
+    <RelativeLayout
+        android:id="@+id/ll_fab"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/photo_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawablePadding="4dp"
+            android:drawableEnd="@drawable/ic_arrow_down"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="目录选择"
+            android:textColor="#666666"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/preview_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingEnd="16dp"
+            android:text="预览"
+            android:textColor="#666666"
+            android:textSize="18sp"/>
+
+        <CheckBox
+            android:id="@+id/cb_original"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/preview_tv"
+            android:button="@null"
+            android:drawableStart="@drawable/checkbox_selector_1"
+            android:drawablePadding="6dp"
+            android:paddingEnd="10dp"
+            android:text="原图"
+            android:textColor="#666666"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+</LinearLayout>

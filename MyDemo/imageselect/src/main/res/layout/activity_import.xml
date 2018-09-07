@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#f2f2f2"
+    >
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/layout_appbar"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_batch_import"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_bar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/mask_color">
+
+        <CheckBox
+            android:id="@+id/cb_isartwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="原图"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btn_import"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="导入"/>
+    </RelativeLayout>
+</RelativeLayout>

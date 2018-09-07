@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AlbumTheme.AppBarOverlay" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+    <style name="AlbumTheme.PopupOverlay" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+    <style name="AlbumTheme" parent="Base.AlbumTheme"/>
+
+
+
+    <style name="Base.AlbumTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:listDivider">@drawable/divider_bg</item>
+        <item name="android:textColorSecondary">@color/white</item>
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="mypopwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popshow_anim</item>
+        <!-- 指定显示的动画xml -->
+
+        <item name="android:windowExitAnimation">@anim/pophidden_anim</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+</resources>

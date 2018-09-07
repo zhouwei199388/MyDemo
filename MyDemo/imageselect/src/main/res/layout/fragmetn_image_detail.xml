@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_text"
+    >
+    <include layout="@layout/layout_appbar"/>
+    <com.harsom.delemu.album.widget.MyViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <FrameLayout
+        android:id="@+id/fl_folder"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:background="#33000000"
+        >
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/cb_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableLeft="@drawable/checkbox_selector_2"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:drawablePadding="6dp"
+            android:layout_gravity="right|center_vertical"
+            android:text="选择"
+            android:textColor="@color/text" />
+    </FrameLayout>
+</FrameLayout>

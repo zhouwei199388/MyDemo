@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="apath_white">#ffffff</color>
+    <color name="primary">#ffabb5</color>
+    <color name="primary_dark">#ffabb5</color>
+    <color name="primary_light">#ffabb5</color>
+    <color name="accent">#ffabb5</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="text">#FFFFFFFF</color>
+    <color name="divider">#dadada</color>
+    <color name="background">#fffafafa</color>
+    <color name="mask_color">#ae000000</color>
+    <color name="mask_color2">#41000000</color>
+    <color name="selector_buttom_bg">#dd747474</color>
+    <color name="text_content">#484848</color>
+    <color name="transparent">#00000000</color>
+    <!-- 内容文本字体颜色 -->
+    <color name="text_summary">#808080</color>
+    <!-- 第二内容文本字体颜色 -->
+    <color name="list_item_normal">#ffffffff</color>
+
+    <drawable name="place_holder">#484848</drawable>
+
+    <color name="text_title">#333333</color> <!-- 标题类文本字体颜色 -->
+    <color name="text_disable">#cccccc</color> <!-- 不可点击时文本颜色 -->
+
+    <drawable name="video_bg">@color/white</drawable>
+</resources>

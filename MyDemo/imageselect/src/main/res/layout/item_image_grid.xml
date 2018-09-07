@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:transitionName="image_selector"
+        />
+
+
+    <View
+        android:id="@+id/mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mask_color"/>
+
+    <ImageView
+        android:id="@+id/iv_upload_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:src="@drawable/ic_cloud_file_overlay"
+        android:visibility="gone"
+        />
+
+
+    <CheckBox
+        android:id="@+id/cb_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:button="@null"
+        android:drawableLeft="@drawable/checkbox_selector_2"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:clickable="false"/>
+
+</FrameLayout>
