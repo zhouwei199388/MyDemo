@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.githang:status-bar-compat-0.7">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/status-bar-compat-0.7.aar/e29857b9e6d8ec3d40c4b8fca50c4d2e/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/status-bar-compat-0.7.aar/e29857b9e6d8ec3d40c4b8fca50c4d2e/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/status-bar-compat-0.7.aar/74195735fdaf3b441a972915e160edeb/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/status-bar-compat-0.7.aar/74195735fdaf3b441a972915e160edeb/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
