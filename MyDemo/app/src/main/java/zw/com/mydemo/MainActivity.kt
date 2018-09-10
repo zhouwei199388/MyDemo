@@ -2,6 +2,7 @@ package zw.com.mydemo
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.util.Log
 import com.harsom.delemu.ImageSelector
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -20,11 +21,18 @@ class MainActivity : AppCompatActivity() {
                     .setShowCamera(true)
                     .startSelect(this)
         }
-
         selectPhoto.setOnClickListener {
-            ImageSelector.setGridColumns(4)
-                    .setSelectModel(ImageSelector.MULTI_MODE)
-                    .startSelect(this)
+            //            ImageSelector.setGridColumns(4)
+//                    .setSelectModel(ImageSelector.MULTI_MODE)
+//                    .startSelect(this)
+
+            object : Thread() {
+                override fun run() {
+//                    super.run()
+                    val test: String? = null
+                    Log.d(test, test)
+                }
+            }.start()
         }
     }
 }
