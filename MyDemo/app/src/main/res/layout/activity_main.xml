@@ -15,4 +15,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/select_photo" />
+    <Button
+        android:id="@+id/all_crash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/all_crash" />
+
+    <Button
+        android:id="@+id/frame_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frame_animation" />
+    <Button
+        android:id="@+id/tween_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tween_animation" />
 </LinearLayout>

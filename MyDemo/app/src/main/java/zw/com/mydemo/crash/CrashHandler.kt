@@ -23,15 +23,12 @@ class CrashHandler : Thread.UncaughtExceptionHandler {
     private lateinit var mDefaultHanlder: Thread.UncaughtExceptionHandler
     private lateinit var mContext: Context
     private var mMessages = HashMap<String, String>()
-
     companion object {
         fun getInstance() = Handler.INSTANCE
     }
-
     private object Handler {
         val INSTANCE = CrashHandler()
     }
-
     fun init(context: Context) {
         mContext = context
 
