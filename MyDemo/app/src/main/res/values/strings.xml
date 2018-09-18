@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">MyDemo</string>
+
+
+    <string name="translate_animation">平移动画</string>
+    <string name="scale_animation">缩放动画</string>
+    <string name="rotate_animation">旋转动画</string>
+    <string name="alpha_animation">渐变动画</string>
+    <string name="java_animation">java加载动画</string>
+    <string name="xml_animation">xml加载动画</string>
+    <string name="all_crash">全局异常捕获</string>
+    <string name="frame_animation">帧动画</string>
+    <string name="tween_animation">补间动画</string>
+    <string name="value_animation">属性动画</string>
+
+
 </resources>

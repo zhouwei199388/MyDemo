@@ -9,6 +9,12 @@ import zw.com.mydemo.R
 
 /**
  * Created by ZouWei on 2018/9/11.
+ *
+ *  补间动画   作用对象局限于view
+ *
+ * 不改变View的属性 只改变View的视图效果
+ *
+ * 动画效果单一
  */
 class TweendAnimationActivity : AppCompatActivity(), View.OnClickListener {
 
