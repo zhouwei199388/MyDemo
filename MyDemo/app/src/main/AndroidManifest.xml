@@ -20,6 +20,8 @@
         <activity android:name=".animation.FrameAnimationActivity" />
         <activity android:name=".animation.TweendAnimationActivity" />
         <activity android:name=".animation.PropertyAnimationActivity" />
+        <activity android:name=".threadPool.ThreadPoolActivity" />
+        <activity android:name=".socket.SocketActivity" />
 
     </application>
 </manifest>

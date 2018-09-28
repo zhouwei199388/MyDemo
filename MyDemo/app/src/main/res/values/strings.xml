@@ -12,6 +12,12 @@
     <string name="frame_animation">帧动画</string>
     <string name="tween_animation">补间动画</string>
     <string name="value_animation">属性动画</string>
-
-
+    <string name="threadpool">线程池</string>
+    <string name="fixedthreadpool">FixedThreadPool</string>
+    <string name="cachethreadpool">CacheThreadPool</string>
+    <string name="scheduledthreadpool">ScheduleThreadPool</string>
+    <string name="singlethreadpool">SingleThreadPool</string>
+    <string name="myThreadPool">自定义线程池</string>
+    <string name="socket">Socket</string>
+    <string name="send">发送</string>
 </resources>

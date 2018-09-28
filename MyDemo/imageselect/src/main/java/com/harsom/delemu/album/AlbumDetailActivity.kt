@@ -48,17 +48,13 @@ class AlbumDetailActivity : BaseActivity() {
     private lateinit var mAdapter: AlbumDetailAdapter
     private lateinit var mRepository: AlbumRepository
 
-    private lateinit var mViewPager: MyViewPager
+//    private lateinit var mViewPager: MyViewPager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_album_detial)
-
         mRepository = AlbumRepository.getInstance()
-        mViewPager = findViewById(R.id.view_pager)
-
         val position: Int = intent.getIntExtra(ARG_IMAGE_LIST, 0)
-
         if (position == -1) {
             if (mRepository.selectSize > 0)
                 mImageInfos.addAll(mRepository.selectImageInfos)
@@ -67,21 +63,16 @@ class AlbumDetailActivity : BaseActivity() {
                 override fun onInitFinish(folders: ArrayList<AlbumFolder>?) {
                     mImageInfos = folders!![position].imageInfos
                 }
-
                 override fun onDataNoAvaliable() {
                 }
-
             })
-
         }
-
         mItemPosition = intent.getIntExtra("itemPosition", -1)
         mCurrentPosition = intent.getIntExtra(ARG_CURRENT_POSITION, 0)
         mAlbumConfig = ImageSelector.getConfig()
         showSelectedCount(mRepository.selectSize, mAlbumConfig.maxCount)
         initCount()
         if (mItemPosition != -1) showSelectedCount(mItemPosition, mImageInfos.size)
-
         iv_back.setOnClickListener {
             finish()
         }
@@ -139,10 +130,10 @@ class AlbumDetailActivity : BaseActivity() {
             finish()
         }
         mAdapter = AlbumDetailAdapter(Glide.with(this), mImageInfos)
-        mViewPager.adapter = mAdapter
-        mViewPager.addOnPageChangeListener(onPageChangeListener)
+        view_pager.adapter = mAdapter
+        view_pager.addOnPageChangeListener(onPageChangeListener)
         cb_checkbox.isChecked = mImageInfos[mCurrentPosition].isSelected
-        mViewPager.currentItem = mCurrentPosition
+        view_pager.currentItem = mCurrentPosition
     }
 
 
@@ -173,7 +164,7 @@ class AlbumDetailActivity : BaseActivity() {
 
 
     fun updateIndicator() {
-        tv_title.text = "${mViewPager.currentItem + 1}/${mAdapter.count}"
+        tv_title.text = "${view_pager.currentItem + 1}/${mAdapter.count}"
     }
 
     /**

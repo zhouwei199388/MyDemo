@@ -73,7 +73,7 @@ class ProgressView : View {
             animator.duration = 5000
             animator.start()
         } else {
-            canvas.drawArc(450f, 450f, 550f, 550f, 0f, mCurrentPro!!.angle, false, mProgressPaint)
+//            canvas.drawArc(450f, 450f, 550f, 550f, 0f, mCurrentPro!!.angle, false, mProgressPaint)
         }
 
     }

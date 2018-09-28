@@ -28,7 +28,7 @@ public class test extends View {
             System.out.println("a1和a2内存地址不相同");
         }
 
-        Map<String, String> map = new HashMap<>();
+        Map<String, String> map = new HashMap<String,String>();
 
         map.put("key", "value");
         System.out.println("a1HashCode=" + a1.hashCode() + "  a2HashCode=" + a2.hashCode());

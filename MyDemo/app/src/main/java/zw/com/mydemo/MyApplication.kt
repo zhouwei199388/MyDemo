@@ -10,6 +10,6 @@ class MyApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        CrashHandler.getInstance().init(this)
+//        CrashHandler.getInstance().init(this)
     }
 }

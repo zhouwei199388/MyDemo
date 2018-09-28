@@ -36,4 +36,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/value_animation" />
+
+    <Button
+        android:id="@+id/threadpool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/threadpool" />
+    <Button
+        android:id="@+id/socket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/socket" />
 </LinearLayout>

@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 26
     defaultConfig {
         applicationId "zw.com.mydemo"
         minSdkVersion 21
@@ -30,5 +30,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation Libs.kotlin_std_lib
     implementation Libs.support_appcompat_v7
-
+    implementation Libs.glide
+    implementation Libs.eventbus
 }
