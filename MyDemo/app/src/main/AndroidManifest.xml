@@ -22,6 +22,7 @@
         <activity android:name=".animation.PropertyAnimationActivity" />
         <activity android:name=".threadPool.ThreadPoolActivity" />
         <activity android:name=".socket.SocketActivity" />
+        <activity android:name=".liveData.LiveDataActivity" />
 
     </application>
 </manifest>

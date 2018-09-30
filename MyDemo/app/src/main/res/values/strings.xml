@@ -19,5 +19,6 @@
     <string name="singlethreadpool">SingleThreadPool</string>
     <string name="myThreadPool">自定义线程池</string>
     <string name="socket">Socket</string>
+    <string name="liveData">liveData</string>
     <string name="send">发送</string>
 </resources>

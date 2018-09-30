@@ -2,7 +2,7 @@ object Versions {
     val support_lib = "27.1.1"
     val retrofit = "2.4.0"
     val rxjava = "2.1.16"
-    val kotlin = "1.2.41"
+    val kotlin = "1.2.51"
     val okhttp3 = "3.10.0"
     val butterknife = "8.4.0"
     val greendao = "3.2.2"

@@ -16,6 +16,7 @@ import org.greenrobot.eventbus.EventBus
 import zw.com.mydemo.animation.FrameAnimationActivity
 import zw.com.mydemo.animation.PropertyAnimationActivity
 import zw.com.mydemo.animation.TweendAnimationActivity
+import zw.com.mydemo.liveData.LiveDataActivity
 import zw.com.mydemo.socket.SocketActivity
 import zw.com.mydemo.threadPool.ThreadPoolActivity
 
@@ -62,6 +63,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.socket -> {
                 startActivity(Intent(this, SocketActivity::class.java))
             }
+            R.id.livedata -> {
+                startActivity(Intent(this, LiveDataActivity::class.java))
+            }
         }
     }
 
@@ -76,6 +80,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         value_animation.setOnClickListener(this)
         threadpool.setOnClickListener(this)
         socket.setOnClickListener(this)
+        livedata.setOnClickListener(this)
 //        myHanlder.sendEmptyMessage(0)
 //        val imageview = ImageView(this)
 //        Glide.with(this).load(testUrl).into(imageview)
