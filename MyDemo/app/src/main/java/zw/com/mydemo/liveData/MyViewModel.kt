@@ -7,5 +7,4 @@ import android.arch.lifecycle.MutableLiveData
  */
 object MyViewModel {
     val myTestString = MutableLiveData<String>()
-
 }

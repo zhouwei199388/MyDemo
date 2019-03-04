@@ -44,17 +44,6 @@ class ProgressView : View {
         mProgressPaint.isAntiAlias = true
         mProgressPaint.strokeWidth = 20f
         mProgressPaint.style = Paint.Style.STROKE
-
-
-    }
-
-
-    override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec)
-    }
-
-    override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
-        super.onSizeChanged(w, h, oldw, oldh)
     }
 
     override fun onDraw(canvas: Canvas?) {

@@ -6,6 +6,8 @@ import zw.com.mydemo.animation.ArcProgress
 
 /**
  * Created by ZouWei on 2018/9/12.
+ *
+ * 估值器
  */
 class ObjectEvaluator : TypeEvaluator<Any> {
     override fun evaluate(fraction: Float, startValue: Any?, endValue: Any?): Any? {
